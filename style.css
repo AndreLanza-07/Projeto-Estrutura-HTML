@@ -1,0 +1,87 @@
+#barraDeNavegacao {
+    background-color: aqua;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    list-style: none;
+}
+
+body {
+    background-color: bisque;
+    font-family: Cambria, Cochin, Georgia;
+    font-size: 12;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+}
+
+hr {
+    border: 1px solid;
+    border-color: black;
+}
+
+table {
+    border: 2px solid;
+}
+
+tr,
+td {
+    border: 1px solid;
+    width: 200px;
+    text-align: center;
+}
+
+#cabecalho {
+    background-color: pink;
+    font-weight: bolder;
+}
+
+img {
+    width: 25%;
+    height: 25%;
+    transition: width 0.5s, height 0.5s;
+}
+
+img:hover {
+    width: 50%;
+    height: 50%;
+}
+
+
+
+
+
+.menu a {
+    /*criar um CX para cada item do menu*/
+    display: inline-block;
+
+    /*cor da letro*/
+    color: #442a07;
+
+    /*alinhamento de texto no bloco*/
+    text-align: center;
+
+    /*espaço do texto para borda superior e inferior*/
+    padding: 15px 15px;
+
+    /*retira o traçado do link*/
+    text-decoration: none;
+
+    /*largura do bloco*/
+    width: auto;
+}
+
+li a:hover {
+    background-color: #442a07;
+    color: #FFF8DC;
+}
+
+#barraDeNavegacao {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    list-style: none;
+    padding: 15px 15px;
+    align-items: center;
+}
